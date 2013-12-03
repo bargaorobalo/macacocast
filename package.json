@@ -1,0 +1,29 @@
+{
+  "name": "macacocast",
+  "version": "0.0.0",
+  "description": "Um bate papo informa com a turma de TI",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bargaorobalo/macacocast.git"
+  },
+  "keywords": [
+    "podcast",
+    "macacocast"
+  ],
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/bargaorobalo/macacocast/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-docpad": "~0.4.0"
+  }
+}
