@@ -2,9 +2,10 @@
   "name": "macacocast",
   "version": "0.0.0",
   "description": "Um bate papo informa com a turma de TI",
-  "main": "index.html",
+  "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node_modules/docpad/bin/docpad-server",
+    "test": "docpad generate"
   },
   "repository": {
     "type": "git",
@@ -19,11 +20,13 @@
   "bugs": {
     "url": "https://github.com/bargaorobalo/macacocast/issues"
   },
-  "devDependencies": {
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "grunt-cli": "0.1.6",
     "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-docpad": "~0.4.0"
+    "docpad": "6.57.0"
   }
 }
