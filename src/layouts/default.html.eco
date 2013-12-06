@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <title>MacacoCast - <%= @document.title %> </title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="<%= @project.baseUrl %>/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="<%= @project.baseUrl %>/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="<%= @project.baseUrl %>/assets/css/default.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="<%= @project.baseUrl %>/assets/img/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="column">
+                <div class="logo">
+                    <h1 class="text-center">
+                        <img src="<%= @project.baseURL %>/assets/img/monkey.png" width="25%">
+                    </h1>
+                    <h2 class="text-center ">MacacoCast</h2>
+                    <small class="text-center">Um bate papo com a galera de TI</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<%- @content %>
+</body>
+</html>
