@@ -4,5 +4,7 @@ module.exports =
     
     templateData:
     	project:
-    		baseUrl: 'http://localhost:9778'
+    		baseUrl: 'http://localhost:9778',
+    		name: 'MacacoCast',
+    		slogan: 'Um bate papo com a galera de TI'
    
