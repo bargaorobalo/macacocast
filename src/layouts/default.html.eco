@@ -26,5 +26,21 @@
     </div>
 
 <%- @content %>
+
+    <footer class="footer">
+        <section class="all-objects">
+            <img src="/assets/img/monkey-monocolor.png" alt="Monkey monocolor">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Feed</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <ul class="social">
+                <li><a href="#"><span>Twitter</span></a></li>
+                <li><a href="#"><span>Facebook</span></a></li>
+            </ul>
+        </section>
+    </footer>
 </body>
 </html>

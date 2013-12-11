@@ -26,3 +26,39 @@
   letter-spacing: -2px;
   line-height: 100px;
 }
+
+.footer{
+  background-color: #edeff1;
+  color: #bac1c8;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  padding: 25px 0 45px 0;
+}
+.footer img{
+  position: absolute;
+  margin-left: 5%;
+}
+
+.footer .all-objects{
+  position: absolute;
+  width: 100%;
+}
+.footer ul{list-style: none;}
+.footer .menu {
+  position: absolute;
+  margin-left: 35%;
+}
+.footer .menu li{
+  float: left;
+  margin: 0 10px;
+}
+.footer .social{
+  position: absolute;
+  margin-left: 80%;
+}
+.footer .social li{
+  float: right;
+  margin: 0 10px;
+}
