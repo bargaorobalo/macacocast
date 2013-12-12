@@ -24,8 +24,10 @@
             </div>
         </div>
     </div>
+    <section class="container">
+        <%- @content %>
+    </section>
 
-<%- @content %>
 
     <footer class="footer">
         <section class="all-objects">
