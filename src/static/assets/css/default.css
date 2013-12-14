@@ -24,7 +24,7 @@
   font-size: 90px;
   font-weight: 900;
   letter-spacing: -2px;
-  line-height: 100px;
+  line-height: 70px;
 }
 
 .footer{
@@ -69,4 +69,7 @@
 }
 .info-episode h3 {
   margin: 0;
+}
+.data-episode{
+  margin-top: 3px;
 }

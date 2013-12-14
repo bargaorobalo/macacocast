@@ -16,7 +16,7 @@
             <div class="column">
                 <div class="logo">
                     <h1 class="text-center">
-                        <img src="assets/img/monkey.png" width="25%">
+                        <img src="assets/img/monkey.png">
                     </h1>
                     <h2 class="text-center "><%= @project.name %></h2>
                     <small class="text-center"><%= @project.slogan %></small>
