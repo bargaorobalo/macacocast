@@ -31,7 +31,7 @@
 
     <footer class="footer">
         <section class="all-objects">
-            <img src="assets/img/monkey-monocolor.png" alt="Monkey monocolor">
+            <img class="footer-logo" src="assets/img/monkey-monocolor.png" alt="Monkey monocolor">
             <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre</a></li>

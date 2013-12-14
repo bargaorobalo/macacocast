@@ -36,9 +36,9 @@
 
   padding: 25px 0 45px 0;
 }
-.footer img{
+.footer .footer-logo{
   position: absolute;
-  margin-left: 5%;
+  margin: -7px 0 0 5%;
 }
 
 .footer .all-objects{
