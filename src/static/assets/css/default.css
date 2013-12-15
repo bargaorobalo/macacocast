@@ -64,12 +64,14 @@
 }
 .episode{
   margin: 10px;
-
-  padding: 10px;
+  padding: 10px 10px 70px 10px;
 }
 .info-episode h3 {
   margin: 0;
 }
 .data-episode{
   margin-top: 3px;
+}
+#player{
+  width: 100%;
 }
