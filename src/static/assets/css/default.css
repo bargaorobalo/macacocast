@@ -1,15 +1,6 @@
-/* Large desktop */
-@media (min-width: 1200px) { ... }
- 
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { ... }
- 
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) { ... }
- 
-/* Landscape phones and down */
-@media (max-width: 480px) {
-
+body{
+  font-size: 100%;
+  color: #34495e;
 }
 
 .logo small {
@@ -21,7 +12,7 @@
   padding-top: 5px;
 }
 .logo h2 {
-  font-size: 90px;
+  font-size: 4.8em;
   font-weight: 900;
   letter-spacing: -2px;
   line-height: 70px;
@@ -72,6 +63,26 @@
 .data-episode{
   margin-top: 3px;
 }
+.info-episode p{
+  margin: 10px 0;
+}
 #player{
   width: 100%;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {  }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {  }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {  }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .logo h2{
+    font-size: 3.8em;
+  }
+
 }
