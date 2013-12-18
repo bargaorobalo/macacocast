@@ -69,6 +69,28 @@ body{
 #player{
   width: 100%;
 }
+.social li a span{ display: none;}
+.twitter a, .facebook a, .github a{
+  background: url(../img/footer-sprites.png) no-repeat 0 0;
+  display: block;
+  width: 30px;
+  height: 29px;
+}
+.github a{
+  background-position: -70px 0px;
+}
+.github a:hover{
+  background-position: -70px -40px;
+}
+.twitter a{
+  background-position: -36px 0px;
+}
+.twitter a:hover{
+  background-position: -36px -40px;
+}
+.facebook a:hover{
+  background-position: 0px -40px;
+}
 
 /* Large desktop */
 @media (min-width: 1200px) {  }

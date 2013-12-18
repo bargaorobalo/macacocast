@@ -39,9 +39,9 @@
                 <li><a href="#">Contato</a></li>
             </ul>
             <ul class="social">
-                <li><a href="http://www.twitter.com/macacocast" target="_blank"><span>Twitter</span></a></li>
-                <li><a href="#" target="_blank"><span>Facebook</span></a></li>
-                <li><a href="https://github.com/bargaorobalo/macacocast" target="_blank"><span>Github</span></a></li>
+                <li class="github"><a title="Fork me on github" href="https://github.com/bargaorobalo/macacocast" target="_blank"><span>Github</span></a></li>
+                <li class="twitter"><a title="Follow me on twitter" href="http://www.twitter.com/macacocast" target="_blank"><span>Twitter</span></a></li>
+                <li class="facebook"><a title="Like me on facebook" href="#" target="_blank"><span>Facebook</span></a></li>
             </ul>
         </section>
     </footer>
