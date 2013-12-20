@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <title>MacacoCast - Um bate papo com a galera de TI </title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/default.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="column">
+                <div class="logo">
+                    <h1 class="text-center">
+                        <img src="assets/img/monkey.png">
+                    </h1>
+                    <h2 class="text-center ">MacacoCast</h2>
+                    <small class="text-center">Um bate papo com a galera de TI</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="container">
+        <div class="row-fluid episode">
+	<div class="span1 offset2 data-episode">
+		<div class="tooltip fade in left">
+			<div class="tooltip-arrow"></div>
+			<div class="tooltip-inner">25/12<span>/2013</span></div>
+		</div>
+	</div>
+	<div class="span6 info-episode">
+		<h3>MacacoCast #0 - Pilot</h3>
+		<img src="assets/img/00-macacocast-pilot.png" alt="" class="illustration">
+		<p>Episode's description. A bunch of IT guys talking about coding, living on a tech-jungle at least 8 hours and 48 minutes per day. Everything beyond this is extra hour. And don't forget to log your hours.</p>
+		<audio id="player" src="assets/audio/01-macacocast-pilot.ogg" controls>
+			<p>Seu navegador não suporta o elemento audio </p>
+		</audio>
+	</div>
+</div>
+
+<script>
+	document.getElementById('player').volume = "0.5";
+</script>
+    </section>
+
+
+    <footer class="footer">
+        <section class="all-objects">
+            <img class="footer-logo" src="assets/img/monkey-monocolor.png" alt="Monkey monocolor">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Feed</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <ul class="social">
+                <li class="github"><a title="Fork me on github" href="https://github.com/bargaorobalo/macacocast" target="_blank"><span>Github</span></a></li>
+                <li class="twitter"><a title="Follow me on twitter" href="http://www.twitter.com/macacocast" target="_blank"><span>Twitter</span></a></li>
+                <li class="facebook"><a title="Like me on facebook" href="http://www.facebook.com/macacocast" target="_blank"><span>Facebook</span></a></li>
+            </ul>
+        </section>
+    </footer>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-46444298-1', 'bargaorobalo.github.io');
+      ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
